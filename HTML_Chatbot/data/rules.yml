@@ -14,5 +14,6 @@ rules:
 
 - rule: Say 'I am a test' anytime the user challenges
   steps:
-  - intent: bot_test
-  - action: utter_test 
+  - intent: bot_save
+  - action: utter_save 
+  - action: ActionSaveConversation

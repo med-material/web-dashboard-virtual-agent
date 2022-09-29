@@ -8,7 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - bot_test
+  - bot_save
 
 responses:
   utter_greet:
@@ -30,8 +30,12 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_test:
-  - text: "Test function"
+  utter_save:
+  - text: "Discussion saved"
+actions:
+  - ActionSaveConversation
+forms: {}
+e2e_actions: []
 
 session_config:
   session_expiration_time: 60

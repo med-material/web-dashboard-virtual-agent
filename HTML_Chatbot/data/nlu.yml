@@ -90,8 +90,8 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: bot_test
+- intent: bot_save
   examples: |
-    - are you ok ?
-    - testing
-    - anaconda
+    - Save
+    - Save the chat
+    - Saving

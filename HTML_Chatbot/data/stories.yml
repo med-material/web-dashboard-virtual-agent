@@ -29,7 +29,8 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: test path 
+- story: save path 
   steps:
-  - intent: bot_test
-  - action: utter_test
+  - intent: bot_save
+  - action: utter_save
+  - action: ActionSaveConversation
