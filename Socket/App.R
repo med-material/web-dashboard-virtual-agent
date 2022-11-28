@@ -60,10 +60,6 @@ server <- function(input, output, session) {
     #Read the socket
     statusMsg = read.socket(con, loop=TRUE)
     print(statusMsg)
-  
-  output$showfile <- renderUI({
-    includeHTML("C:/Users/doure/Downloads/TTMéNOT/Rasat/index.html")
-  })
   }
   )
 }

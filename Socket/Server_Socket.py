@@ -2,8 +2,6 @@ import socket
 import select
 import time
 
-#shiny::shinyAppFile("C:/Users/doure/Downloads/Rshiny-intro/Socket/App.R")
-
 # Creation of the socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(('127.0.0.1', 6007))
