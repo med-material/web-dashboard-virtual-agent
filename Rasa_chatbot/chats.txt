@@ -1,0 +1,6 @@
+user input;bot reply
+
+/greet;Hey! How are you?
+good;Great, carry on!
+bye;Bye
+save the discussion;Discussion saved
