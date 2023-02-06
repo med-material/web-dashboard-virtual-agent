@@ -1,2 +1,0 @@
-D:\Anaconda
-D:\Anaconda\envs\rasa
